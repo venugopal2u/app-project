@@ -1,10 +1,3 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def hello():
-    return 'Hello, Docker!'
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+# filepath: test_app.py
+def test_example():
+    assert 1 + 1 == 2
