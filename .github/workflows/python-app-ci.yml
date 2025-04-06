@@ -3,10 +3,10 @@ name: Python Application CI/CD
 on:
   push:
     branches:
-      - main  # Update to 'main' if that's your default branch
+      - master  # Update to 'main' if that's your default branch
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
